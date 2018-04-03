@@ -1,6 +1,4 @@
-package structuralPatterns.adapterPattern;
-
-import com.sun.xml.internal.xsom.impl.scd.Iterators;
+package structuralPatterns.foods;
 
 /**
  * Created by Ning on 3/27/18.

@@ -1,4 +1,4 @@
-package structuralPatterns.adapterPattern;
+package structuralPatterns.foods;
 
 /**
  * Created by Ning on 4/2/18.

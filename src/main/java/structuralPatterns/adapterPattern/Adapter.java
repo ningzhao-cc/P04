@@ -1,5 +1,8 @@
 package structuralPatterns.adapterPattern;
 
+import structuralPatterns.foods.EatclubFood;
+import structuralPatterns.foods.Food;
+
 /**
  * Created by Ning on 3/27/18.
  */

@@ -1,9 +1,12 @@
 package structuralPatterns.adapterPattern;
 
+import structuralPatterns.foods.EatclubNoodle;
+import structuralPatterns.foods.Food;
+
 /**
  * Created by Ning on 4/2/18.
  */
-public class Adapter2 extends EatclubNoodle implements Food{
+public class Adapter2 extends EatclubNoodle implements Food {
 
     public Adapter2() {}
 
