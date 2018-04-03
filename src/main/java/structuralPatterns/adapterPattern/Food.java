@@ -5,5 +5,5 @@ package structuralPatterns.adapterPattern;
  */
 public interface Food {
     //general food, can be eaten generally.
-    public void eatFood();
+    void eatFood();
 }

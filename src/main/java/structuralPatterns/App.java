@@ -16,13 +16,17 @@ public class App
         //Client client = new Client(food);
         //client.eatFood();
 
-        //// Object Adaptor
-        //EatclubFood eatclubFood = new EatclubNoodle();
-        //Client client = new Client();
-        //Adaptor adaptor = new Adaptor(eatclubFood); // adaptor needs to implement Target interface and composite Adaptee interface
-        //client.setFood(adaptor);
+        // Object Adapter
+        EatclubFood eatclubFood = new EatclubNoodle();
+        Client client = new Client();
+        Adapter adapter = new Adapter(eatclubFood); // adaptor needs to implement Target interface and composite Adaptee interface
+        client.setFood(adapter);
+        client.eatFood();
+
+        // // Class Adapter
+        //Food food = new Adapter2();
+        //
+        //Client client = new Client(food);
         //client.eatFood();
-
-
     }
 }
