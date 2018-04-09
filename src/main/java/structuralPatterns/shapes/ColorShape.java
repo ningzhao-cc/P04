@@ -1,5 +1,6 @@
 package structuralPatterns.shapes;
 
+import structuralPatterns.bridgePattern.ColorShapeImplementor;
 import structuralPatterns.bridgePattern.ShapeImplementor;
 import structuralPatterns.colors.ColorType;
 
@@ -9,14 +10,17 @@ import structuralPatterns.colors.ColorType;
 public abstract class ColorShape extends Shape {
     private ShapeType shapeType;
     private ColorType colorType;
+    private ColorShapeImplementor colorShapeImplementor;
 
-    public ColorShape(ShapeImplementor shapeImplementor) {
-        super(shapeImplementor);
+    public ColorShape(ColorShapeImplementor colorShapeImplementor) {
+        this.colorShapeImplementor = colorShapeImplementor;
     }
 
-    public void setColorType(ColorType colorType) {
-        this.colorType = colorType;
+    public ColorShape() {
+
     }
+
+    public void setColorType(ColorType colorType) {}
 
     public ColorType getColorType() {
         return colorType;

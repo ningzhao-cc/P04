@@ -7,9 +7,9 @@ import structuralPatterns.colors.ColorType;
  * Created by Ning on 4/5/18.
  */
 public class Rectangle extends Shape {
-    private int x;
-    private int y;
-    private ShapeType shapeType;
+    //private int x;
+    //private int y;
+    //private ShapeType shapeType;
 
 
     //public Rectangle() {
@@ -20,26 +20,14 @@ public class Rectangle extends Shape {
     //    this.x = x;
     //    this.y = y;
     //}
-
-
-    public void setX(int x) {
-        this.x = x;
+    public void setParam(int [] args) {
+        shapeImplementor.setParam(args);
     }
 
-    public void setY(int y) {
-        this.y = y;
+    public double getArea() {
+        return shapeImplementor.getArea();
     }
 
-    @Override
-    public void setParam(int x, int y) {
-        setX(x);
-        setY(y);
-    }
-
-    @Override
-    public int getArea() {
-        return x * y;
-    }
 
     protected ShapeImplementor shapeImplementor;
 
@@ -48,7 +36,9 @@ public class Rectangle extends Shape {
     }
 
     public Rectangle(ShapeImplementor shapeImplementor) {
-        super(shapeImplementor);
+        super();
+        this.shapeImplementor = shapeImplementor;
+        shapeImplementor.setShapeType(ShapeType.RECTANGLE);
     }
 
     public void setShapeType(ShapeType shapeType) {
@@ -62,4 +52,14 @@ public class Rectangle extends Shape {
     public ColorType getColorType() {
         return null;
     }
+
+    public void print() {
+        shapeImplementor.print();
+    }
+
+    // //rectangle is initialized or not
+    //public void print() {
+    //    System.out.println("the shape is : " + shapeType.toString() + " and the color is : " +
+    //            null  + " and the area is : " + this.getArea());
+    //}
 }

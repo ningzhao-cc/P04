@@ -1,13 +1,16 @@
 package structuralPatterns.bridgePattern;
 
 import structuralPatterns.colors.ColorType;
+import structuralPatterns.materials.Material;
+import structuralPatterns.materials.MaterialType;
 import structuralPatterns.shapes.ShapeType;
 
 /**
- * Created by Ning on 4/8/18.
+ * Created by Ning on 4/9/18.
  */
-public class ColorShapeImplementor implements ColorImplementor, ShapeImplementor {
+public class ColorMaterialShapeImplementor implements ColorImplementor, ShapeImplementor, MaterialImplementor {
     private ColorType colorType;
+    private MaterialType materialType;
     private ShapeType shapeType;
     private int[] params;
 
@@ -19,16 +22,20 @@ public class ColorShapeImplementor implements ColorImplementor, ShapeImplementor
         return colorType;
     }
 
+    public void setMaterialType(MaterialType materialType) {
+        this.materialType = materialType;
+    }
+
+    public MaterialType getMaterialType() {
+        return materialType;
+    }
+
     public void setShapeType(ShapeType shapeType) {
         this.shapeType = shapeType;
     }
 
     public ShapeType getShapeType() {
         return shapeType;
-    }
-
-    public void setParam(int[] args) {
-        this.params = args;
     }
 
     public double getArea() {
@@ -46,7 +53,13 @@ public class ColorShapeImplementor implements ColorImplementor, ShapeImplementor
     }
 
     public void print() {
-        System.out.println("the shape is : " + shapeType.toString() + " and the color is : " +
-                (colorType == null ? null : colorType.toString())  + " and the area is : " + getArea());
+        System.out.println("the shape is : " + (shapeType == null ? null : shapeType.toString()) +
+                " and the color is : " + (colorType == null ? null : colorType.toString())  +
+                " and the material is : " + (materialType == null ? null : materialType.toString()) +
+                " and the area is : " + getArea());
+    }
+
+    public void setParam(int[] args) {
+        this.params = args;
     }
 }

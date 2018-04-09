@@ -6,6 +6,6 @@ import structuralPatterns.colors.ColorType;
  * Created by Ning on 4/8/18.
  */
 public interface ColorImplementor {
-    public void setColorType(ColorType colorType);
-    public ColorType getColorType();
+    void setColorType(ColorType colorType);
+    ColorType getColorType();
 }

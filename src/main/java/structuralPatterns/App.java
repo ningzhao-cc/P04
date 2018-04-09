@@ -1,15 +1,15 @@
 package structuralPatterns;
 
 import structuralPatterns.adapterPattern.*;
+import structuralPatterns.bridgePattern.ColorMaterialShapeImplementor;
 import structuralPatterns.bridgePattern.ColorShapeImplementor;
 import structuralPatterns.bridgePattern.ShapeImplementor;
+import structuralPatterns.colors.ColorType;
 import structuralPatterns.foods.EatclubFood;
 import structuralPatterns.foods.EatclubNoodle;
 import structuralPatterns.foods.Food;
 import structuralPatterns.foods.Noodle;
-import structuralPatterns.shapes.Rectangle;
-import structuralPatterns.shapes.Shape;
-import structuralPatterns.shapes.ShapeType;
+import structuralPatterns.shapes.*;
 
 import java.util.HashMap;
 
@@ -118,16 +118,21 @@ public class App
         //System.out.println(Integer.toHexString(System.identityHashCode(s1)));
         //System.out.println(Integer.toHexString(System.identityHashCode(s2)));
 
-        //Shape rectangle = new Rectangle(4,5);
-        //System.out.println(rectangle.getArea());
 
+        // // Bridge pattern
 
         Shape rectangle = new Rectangle(new ColorShapeImplementor());
-        rectangle.setShapeType(ShapeType.RECTANGLE);
-        rectangle.setParam(5,6);
-        System.out.println(rectangle.getArea());
+        rectangle.setParam(new int[]{5, 6});
+        rectangle.print();
 
 
+        ColorShape blueRectangle = new BlueRectangle(new ColorShapeImplementor());
+        blueRectangle.setParam(new int[]{6, 7});
+        blueRectangle.print();
+
+        ColorMaterialShape bluePlasticTriangle = new BluePlasticTriangle(new ColorMaterialShapeImplementor());
+        bluePlasticTriangle.setParam(new int[]{3, 4, 5});
+        bluePlasticTriangle.print();
 
 
     }

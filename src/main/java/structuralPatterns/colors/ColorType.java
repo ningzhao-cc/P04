@@ -6,5 +6,6 @@ package structuralPatterns.colors;
 public enum ColorType {
     BLACK,
     RED,
+    BLUE,
     YELLOW;
 }

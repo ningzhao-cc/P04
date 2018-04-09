@@ -9,17 +9,21 @@ public abstract class Shape {
     private ShapeType shapeType;
     private ShapeImplementor shapeImplementor;
 
-    public void setShapeType(ShapeType shapeType) {
-        this.shapeType = shapeType;
-    }
+    public void setShapeType(ShapeType shapeType) {}
 
     public ShapeType getShapeType() {
         return shapeType;
     }
 
-    public abstract int getArea();
+    public abstract double getArea();
 
-    public Shape(ShapeImplementor shapeImplementor) {}
+    public Shape(ShapeImplementor shapeImplementor) {
+        this.shapeImplementor = shapeImplementor;
+    }
 
-    public void setParam(int x, int y) {}
+    public Shape() {}
+
+    public void setParam(int[] args) {}
+
+    public abstract void print();
 }
