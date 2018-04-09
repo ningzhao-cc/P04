@@ -6,7 +6,7 @@ import structuralPatterns.bridgePattern.MaterialImplementor;
 /**
  * Created by Ning on 4/9/18.
  */
-public class Material {
+public abstract class Material {
     private MaterialType materialType;
     private MaterialImplementor materialImplementor;
 

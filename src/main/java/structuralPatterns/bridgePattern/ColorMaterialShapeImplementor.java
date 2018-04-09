@@ -1,7 +1,6 @@
 package structuralPatterns.bridgePattern;
 
 import structuralPatterns.colors.ColorType;
-import structuralPatterns.materials.Material;
 import structuralPatterns.materials.MaterialType;
 import structuralPatterns.shapes.ShapeType;
 

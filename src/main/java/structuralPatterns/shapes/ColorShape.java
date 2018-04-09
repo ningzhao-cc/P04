@@ -1,7 +1,6 @@
 package structuralPatterns.shapes;
 
 import structuralPatterns.bridgePattern.ColorShapeImplementor;
-import structuralPatterns.bridgePattern.ShapeImplementor;
 import structuralPatterns.colors.ColorType;
 
 /**

@@ -1,7 +1,6 @@
 package structuralPatterns.shapes;
 
 import structuralPatterns.bridgePattern.ShapeImplementor;
-import structuralPatterns.colors.ColorType;
 
 /**
  * Created by Ning on 4/5/18.
@@ -47,10 +46,6 @@ public class Rectangle extends Shape {
 
     public ShapeType getShapeType() {
         return shapeImplementor.getShapeType();
-    }
-
-    public ColorType getColorType() {
-        return null;
     }
 
     public void print() {
