@@ -8,10 +8,11 @@ import structuralPatterns.foods.Food;
  */
 public class Adapter3 implements Food, EatclubFood{
     public void eatEatclubFood() {
-
+        // for eatclub noodle
+        // for eatclub salad
     }
 
     public void eatFood() {
-
+        System.out.println("I do not eat food");
     }
 }
