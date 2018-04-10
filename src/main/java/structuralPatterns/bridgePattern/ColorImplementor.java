@@ -8,4 +8,5 @@ import structuralPatterns.colors.ColorType;
 public interface ColorImplementor {
     void setColorType(ColorType colorType);
     ColorType getColorType();
+    void print();
 }

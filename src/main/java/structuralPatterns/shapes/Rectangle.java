@@ -6,19 +6,7 @@ import structuralPatterns.bridgePattern.ShapeImplementor;
  * Created by Ning on 4/5/18.
  */
 public class Rectangle extends Shape {
-    //private int x;
-    //private int y;
-    //private ShapeType shapeType;
 
-
-    //public Rectangle() {
-    //    super();
-    //};
-
-    //public Rectangle(int x, int y) {
-    //    this.x = x;
-    //    this.y = y;
-    //}
     public void setParam(int [] args) {
         shapeImplementor.setParam(args);
     }

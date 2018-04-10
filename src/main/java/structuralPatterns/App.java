@@ -4,7 +4,9 @@ import structuralPatterns.adapterPattern.*;
 import structuralPatterns.bridgePattern.ColorMaterialShapeImplementor;
 import structuralPatterns.bridgePattern.ColorShapeImplementor;
 import structuralPatterns.bridgePattern.ShapeImplementor;
+import structuralPatterns.colors.Color;
 import structuralPatterns.colors.ColorType;
+import structuralPatterns.colors.RedColor;
 import structuralPatterns.foods.EatclubFood;
 import structuralPatterns.foods.EatclubNoodle;
 import structuralPatterns.foods.Food;
@@ -120,20 +122,26 @@ public class App
 
 
         // // Bridge pattern
+        //
+        //Shape rectangle = new Rectangle(new ColorShapeImplementor());
+        //rectangle.setParam(new int[]{5, 6});
+        //rectangle.print();
 
-        Shape rectangle = new Rectangle(new ColorShapeImplementor());
-        rectangle.setParam(new int[]{5, 6});
-        rectangle.print();
+        //
+        //ColorShape blueRectangle = new BlueRectangle(new ColorShapeImplementor());
+        //blueRectangle.setParam(new int[]{6, 7});
+        //blueRectangle.print();
 
-
-        ColorShape blueRectangle = new BlueRectangle(new ColorShapeImplementor());
-        blueRectangle.setParam(new int[]{6, 7});
-        blueRectangle.print();
+        //
+        //ColorShape redCircle = new RedCircle(new ColorShapeImplementor());
+        //redCircle.setParam(new int[]{6});
+        //redCircle.print();
+        //
+        //Color redColor = new RedColor((new ColorShapeImplementor()));
+        //redColor.print();
 
         ColorMaterialShape bluePlasticTriangle = new BluePlasticTriangle(new ColorMaterialShapeImplementor());
         bluePlasticTriangle.setParam(new int[]{3, 4, 5});
         bluePlasticTriangle.print();
-
-
     }
 }

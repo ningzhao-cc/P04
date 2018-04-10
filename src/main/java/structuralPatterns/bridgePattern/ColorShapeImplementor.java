@@ -32,6 +32,10 @@ public class ColorShapeImplementor implements ColorImplementor, ShapeImplementor
     }
 
     public double getArea() {
+        if (shapeType == null) {
+            return 0;
+        }
+
         switch (shapeType) {
             case CIRCLE:
                 return  Math.PI * params[0] * params[0];
@@ -46,7 +50,7 @@ public class ColorShapeImplementor implements ColorImplementor, ShapeImplementor
     }
 
     public void print() {
-        System.out.println("the shape is : " + shapeType.toString() + " and the color is : " +
+        System.out.println("the shape is : " + (shapeType == null ? null : shapeType.toString()) + " and the color is : " +
                 (colorType == null ? null : colorType.toString())  + " and the area is : " + getArea());
     }
 }

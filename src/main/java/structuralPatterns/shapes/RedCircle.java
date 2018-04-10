@@ -1,26 +1,23 @@
 package structuralPatterns.shapes;
 
-import structuralPatterns.bridgePattern.ColorImplementor;
 import structuralPatterns.bridgePattern.ColorShapeImplementor;
-import structuralPatterns.bridgePattern.ShapeImplementor;
 import structuralPatterns.colors.ColorType;
 
 /**
- * Created by Ning on 4/5/18.
+ * Created by Ning on 4/9/18.
  */
-public class BlueRectangle extends ColorShape {
-
+public class RedCircle extends ColorShape {
     protected ColorShapeImplementor colorShapeImplementor;
 
     public void setColorShapeImplementor(ColorShapeImplementor impl) {
         colorShapeImplementor = impl;
     }
 
-    public BlueRectangle(ColorShapeImplementor colorShapeImplementor) {
+    public RedCircle(ColorShapeImplementor colorShapeImplementor) {
         super();
         this.colorShapeImplementor = colorShapeImplementor;
-        colorShapeImplementor.setColorType(ColorType.BLUE);
-        colorShapeImplementor.setShapeType(ShapeType.RECTANGLE);
+        colorShapeImplementor.setColorType(ColorType.RED);
+        colorShapeImplementor.setShapeType(ShapeType.CIRCLE);
     }
 
     public void setShapeType(ShapeType shapeType) {

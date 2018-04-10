@@ -8,6 +8,7 @@ import structuralPatterns.materials.MaterialType;
  * Created by Ning on 4/9/18.
  */
 public class BluePlasticTriangle extends ColorMaterialShape {
+
     protected ColorMaterialShapeImplementor impl;
 
     public void setColorPlasticShapeImplementor(ColorMaterialShapeImplementor impl) {

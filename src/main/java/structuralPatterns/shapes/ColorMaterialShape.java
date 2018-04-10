@@ -8,9 +8,9 @@ import structuralPatterns.materials.MaterialType;
  * Created by Ning on 4/9/18.
  */
 public abstract class ColorMaterialShape extends ColorShape {
-    private ShapeType shapeType;
-    private ColorType colorType;
-    private MaterialType materialType;
+    //private ShapeType shapeType;
+    public ColorType colorType;
+    //private MaterialType materialType;
 
     private ColorMaterialShapeImplementor impl;
 
@@ -38,6 +38,6 @@ public abstract class ColorMaterialShape extends ColorShape {
     }
 
     public MaterialType getMaterialType() {
-        return materialType;
+        return null;
     }
 }
