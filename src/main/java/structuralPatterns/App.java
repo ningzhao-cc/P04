@@ -1,9 +1,7 @@
 package structuralPatterns;
 
 import structuralPatterns.adapterPattern.*;
-import structuralPatterns.bridgePattern.ColorMaterialShapeImplementor;
-import structuralPatterns.bridgePattern.ColorShapeImplementor;
-import structuralPatterns.bridgePattern.ShapeImplementor;
+import structuralPatterns.bridgePattern.*;
 import structuralPatterns.colors.Color;
 import structuralPatterns.colors.ColorType;
 import structuralPatterns.colors.RedColor;
@@ -132,16 +130,16 @@ public class App
         //blueRectangle.setParam(new int[]{6, 7});
         //blueRectangle.print();
 
-        //
-        //ColorShape redCircle = new RedCircle(new ColorShapeImplementor());
-        //redCircle.setParam(new int[]{6});
-        //redCircle.print();
+
         //
         //Color redColor = new RedColor((new ColorShapeImplementor()));
         //redColor.print();
 
-        ColorMaterialShape bluePlasticTriangle = new BluePlasticTriangle(new ColorMaterialShapeImplementor());
-        bluePlasticTriangle.setParam(new int[]{3, 4, 5});
-        bluePlasticTriangle.print();
+        //ColorMaterialShape bluePlasticTriangle = new BluePlasticTriangle(new ColorMaterialShapeImplementor());
+        //bluePlasticTriangle.setParam(new int[]{3, 4, 5});
+        //bluePlasticTriangle.print();
+
+        Shape1 redCircle = new Circle(10,1,1, new RedCircle());
+        redCircle.draw();
     }
 }
