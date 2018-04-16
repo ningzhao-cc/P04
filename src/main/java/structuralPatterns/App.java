@@ -5,6 +5,9 @@ import structuralPatterns.bridgePattern.*;
 import structuralPatterns.colors.Color;
 import structuralPatterns.colors.ColorType;
 import structuralPatterns.colors.RedColor;
+import structuralPatterns.decoratorPattern.ColorDecorator;
+import structuralPatterns.decoratorPattern.FrameDecorator;
+import structuralPatterns.decoratorPattern.Paint;
 import structuralPatterns.foods.EatclubFood;
 import structuralPatterns.foods.EatclubNoodle;
 import structuralPatterns.foods.Food;
@@ -139,7 +142,24 @@ public class App
         //bluePlasticTriangle.setParam(new int[]{3, 4, 5});
         //bluePlasticTriangle.print();
 
-        Shape1 redCircle = new Circle(10,1,1, new RedCircle());
-        redCircle.draw();
+        //Shape1 redCircle = new Circle(10,1,1, new RedCircle());
+        //redCircle.draw();
+
+
+        // decorator Pattern
+        // new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream( "io.txt" )));
+
+        Paint paint = new Paint();
+        System.out.println(paint.draw());
+
+        FrameDecorator frameDecorator = new FrameDecorator(paint);
+        System.out.println(frameDecorator.draw());
+
+        ColorDecorator colorDecorator = new ColorDecorator(paint);
+        System.out.println(colorDecorator.draw());
+
+        ColorDecorator colorDecorator1 = new ColorDecorator(frameDecorator);
+        System.out.println(colorDecorator1.draw());
+
     }
 }
