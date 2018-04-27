@@ -2,9 +2,7 @@ package structuralPatterns;
 
 import structuralPatterns.adapterPattern.*;
 import structuralPatterns.bridgePattern.*;
-import structuralPatterns.colors.Color;
-import structuralPatterns.colors.ColorType;
-import structuralPatterns.colors.RedColor;
+
 import structuralPatterns.decoratorPattern.ColorDecorator;
 import structuralPatterns.decoratorPattern.FrameDecorator;
 import structuralPatterns.decoratorPattern.Paint;
@@ -12,7 +10,6 @@ import structuralPatterns.foods.EatclubFood;
 import structuralPatterns.foods.EatclubNoodle;
 import structuralPatterns.foods.Food;
 import structuralPatterns.foods.Noodle;
-import structuralPatterns.shapes.*;
 
 import java.util.HashMap;
 
@@ -123,43 +120,29 @@ public class App
 
 
         // // Bridge pattern
-        //
-        //Shape rectangle = new Rectangle(new ColorShapeImplementor());
-        //rectangle.setParam(new int[]{5, 6});
-        //rectangle.print();
+        Shape[] shapes = new Shape[2];
+        shapes[0] = new Circle(new DrawCircleImplementor(1,2,3));
+        shapes[1] = new Circle(new DrawRedCircleImplementor(2,3,4));
+        for (Shape shape : shapes) {
+            shape.draw();
+        }
 
-        //
-        //ColorShape blueRectangle = new BlueRectangle(new ColorShapeImplementor());
-        //blueRectangle.setParam(new int[]{6, 7});
-        //blueRectangle.print();
-
-
-        //
-        //Color redColor = new RedColor((new ColorShapeImplementor()));
-        //redColor.print();
-
-        //ColorMaterialShape bluePlasticTriangle = new BluePlasticTriangle(new ColorMaterialShapeImplementor());
-        //bluePlasticTriangle.setParam(new int[]{3, 4, 5});
-        //bluePlasticTriangle.print();
-
-        //Shape1 redCircle = new Circle(10,1,1, new RedCircle());
-        //redCircle.draw();
 
 
         // decorator Pattern
         // new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream( "io.txt" )));
 
-        Paint paint = new Paint();
-        System.out.println(paint.draw());
-
-        FrameDecorator frameDecorator = new FrameDecorator(paint);
-        System.out.println(frameDecorator.draw());
-
-        ColorDecorator colorDecorator = new ColorDecorator(paint);
-        System.out.println(colorDecorator.draw());
-
-        ColorDecorator colorDecorator1 = new ColorDecorator(frameDecorator);
-        System.out.println(colorDecorator1.draw());
+        //Paint paint = new Paint();
+        //System.out.println(paint.draw());
+        //
+        //FrameDecorator frameDecorator = new FrameDecorator(paint);
+        //System.out.println(frameDecorator.draw());
+        //
+        //ColorDecorator colorDecorator = new ColorDecorator(paint);
+        //System.out.println(colorDecorator.draw());
+        //
+        //ColorDecorator colorDecorator1 = new ColorDecorator(frameDecorator);
+        //System.out.println(colorDecorator1.draw());
 
     }
 }
