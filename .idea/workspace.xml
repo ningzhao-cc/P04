@@ -2,57 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b95c093-d365-4264-80ec-c81c639b009a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/ColorImplementor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/ColorMaterialShapeImplementor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/ColorShapeImplementor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/GreenCircle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/MaterialImplementor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/RedCircle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/ShapeImplementor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/colors/Color.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/colors/ColorType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/colors/RedColor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/materials/Material.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/materials/MaterialType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/BluePlasticTriangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/BlueRectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/ColorMaterialShape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/ColorShape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/Shape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/ShapeType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/ColorImplementor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/ColorMaterialShapeImplementor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/ColorMaterialShapeImplementor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/ColorShapeImplementor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/ColorShapeImplementor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawAPI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/GreenCircle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/MaterialImplementor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/RedCircle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/Shape1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/ShapeImplementor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/colors/Color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/colors/ColorType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/colors/RedColor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/materials/Material.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/materials/MaterialType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/BluePlasticTriangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/BlueRectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/ColorMaterialShape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/ColorShape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/Shape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/shapes/ShapeType.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawAPI.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape1.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/App.class" afterPath="$PROJECT_DIR$/target/classes/structuralPatterns/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/Circle.class" afterPath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawCircleImplementor.class" afterPath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawCircleImplementor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawImplementor.class" afterPath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawImplementor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawRedCircleImplementor.class" afterPath="$PROJECT_DIR$/target/classes/structuralPatterns/bridgePattern/DrawRedCircleImplementor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/App.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Circle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java" afterPath="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,69 +26,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Drawer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Drawer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="127" column="9" lean-forward="false" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="128" column="11" lean-forward="true" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Paint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Paint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Decorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/FrameDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColorDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/ColorDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +41,8 @@
       <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -146,8 +51,8 @@
       <file leaf-file-name="DrawImplementor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="165">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -156,12 +61,9 @@
       <file leaf-file-name="DrawCircleImplementor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-286">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="20" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,28 +71,25 @@
       <file leaf-file-name="DrawRedCircleImplementor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="55" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="669">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="422">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -270,11 +169,11 @@
         <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/GreenTriangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawTriangleImplementor.java" />
         <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRectangleImplementor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java" />
         <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java" />
         <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/structuralPatterns/App.java" />
       </list>
     </option>
@@ -761,6 +660,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1694" y="23" width="1666" height="924" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1110,57 +1010,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Drawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/shapes/BluePlasticTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/FrameDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/ColorDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,65 +1050,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="127" column="9" lean-forward="false" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Paint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/FrameDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/ColorDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/decoratorPattern/Drawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawImplementor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawCircleImplementor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-286">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="422">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/bridgePattern/DrawRedCircleImplementor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structuralPatterns/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="128" column="11" lean-forward="true" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

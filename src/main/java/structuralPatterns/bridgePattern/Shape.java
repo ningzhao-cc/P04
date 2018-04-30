@@ -5,4 +5,6 @@ package structuralPatterns.bridgePattern;
  */
 public abstract class Shape {
     public abstract void draw();
+    // 22
+    //public abstract void resize(int factor);
 }

@@ -120,12 +120,23 @@ public class App
 
 
         // // Bridge pattern
-        Shape[] shapes = new Shape[2];
-        shapes[0] = new Circle(new DrawCircleImplementor(1,2,3));
-        shapes[1] = new Circle(new DrawRedCircleImplementor(2,3,4));
-        for (Shape shape : shapes) {
-            shape.draw();
-        }
+        // 11
+        //Shape[] shapes = new Shape[2];
+        //shapes[0] = new Circle(new DrawCircleImplementor(1,2,3));
+        //shapes[1] = new Circle(new DrawRedCircleImplementor(2,3,4));
+        //for (Shape shape : shapes) {
+        //    shape.draw();
+        //}
+
+
+        // 22
+        //Shape[] shapes = new Shape[2];
+        //shapes[0] = new Circle(1,2,3, new DrawCircleImplementor());
+        //shapes[1] = new Circle(2, 3, 4, new DrawRedCircleImplementor());
+        //for (Shape shape : shapes) {
+        //    //shape.resize(4);
+        //    shape.draw();
+        //}
 
 
 
