@@ -134,7 +134,7 @@ public class App
         //shapes[0] = new Circle(1,2,3, new DrawCircleImplementor());
         //shapes[1] = new Circle(2, 3, 4, new DrawRedCircleImplementor());
         //for (Shape shape : shapes) {
-        //    //shape.resize(4);
+        //    shape.resize(4);
         //    shape.draw();
         //}
 
@@ -143,17 +143,17 @@ public class App
         // decorator Pattern
         // new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream( "io.txt" )));
 
-        //Paint paint = new Paint();
-        //System.out.println(paint.draw());
-        //
-        //FrameDecorator frameDecorator = new FrameDecorator(paint);
-        //System.out.println(frameDecorator.draw());
-        //
-        //ColorDecorator colorDecorator = new ColorDecorator(paint);
-        //System.out.println(colorDecorator.draw());
-        //
-        //ColorDecorator colorDecorator1 = new ColorDecorator(frameDecorator);
-        //System.out.println(colorDecorator1.draw());
+        Paint paint = new Paint();
+        System.out.println(paint.draw());
+
+        FrameDecorator frameDecorator = new FrameDecorator(paint);
+        System.out.println(frameDecorator.draw());
+
+        ColorDecorator colorDecorator = new ColorDecorator(paint);
+        System.out.println(colorDecorator.draw());
+
+        ColorDecorator colorDecorator1 = new ColorDecorator(frameDecorator);
+        System.out.println(colorDecorator1.draw());
 
     }
 }

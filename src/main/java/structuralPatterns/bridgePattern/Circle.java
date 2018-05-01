@@ -6,8 +6,7 @@ package structuralPatterns.bridgePattern;
 public class Circle extends Shape {
 
     // 11
-    //private DrawImplementor impl;
-    //
+
     //public Circle(DrawImplementor impl) {
     //    this.impl = impl;
     //}
@@ -48,4 +47,5 @@ public class Circle extends Shape {
     }
 
     //22
+
 }
