@@ -11,6 +11,8 @@ import structuralPatterns.foods.EatclubFood;
 import structuralPatterns.foods.EatclubNoodle;
 import structuralPatterns.foods.Food;
 import structuralPatterns.foods.Noodle;
+import structuralPatterns.proxyPattern.DevOps;
+import structuralPatterns.proxyPattern.Engineer;
 
 import java.util.HashMap;
 
@@ -157,10 +159,20 @@ public class App
         //System.out.println(colorDecorator1.draw());
 
         // Facade Pattern
+        //
+        //SystemInit.getInstance().on();
+        //
+        //SystemInit.getInstance().off();
 
-        SystemInit.getInstance().on();
 
-        SystemInit.getInstance().off();
+        // Proxy pattern
+        // 11
+        Engineer engineer = new DevOps();
+        engineer.build();
 
+
+        // 22
+        //Engineer engineer = DevOps.getInstance();
+        //engineer.build();
     }
 }
