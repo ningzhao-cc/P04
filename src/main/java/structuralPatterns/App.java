@@ -1,12 +1,20 @@
 package structuralPatterns;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import structuralPatterns.adapterPattern.*;
 import structuralPatterns.bridgePattern.*;
 
+import structuralPatterns.compositePattern.AbstractFileComponent;
+import structuralPatterns.compositePattern.File;
+import structuralPatterns.compositePattern.Folder;
 import structuralPatterns.decoratorPattern.ColorDecorator;
 import structuralPatterns.decoratorPattern.FrameDecorator;
 import structuralPatterns.decoratorPattern.Paint;
 import structuralPatterns.facadePattern.SystemInit;
+import structuralPatterns.flyweightPattern.ConcreteFlyweight;
+import structuralPatterns.flyweightPattern.Flyweight;
+import structuralPatterns.flyweightPattern.FlyweightFactory;
 import structuralPatterns.foods.EatclubFood;
 import structuralPatterns.foods.EatclubNoodle;
 import structuralPatterns.foods.Food;
@@ -14,7 +22,9 @@ import structuralPatterns.foods.Noodle;
 import structuralPatterns.proxyPattern.DevOps;
 import structuralPatterns.proxyPattern.Engineer;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Hello world!
@@ -22,6 +32,7 @@ import java.util.HashMap;
  */
 public class App 
 {
+    static private final Logger logger = LoggerFactory.getLogger(App.class);
     public static void main( String[] args )
     {
         // Adapter Pattern
@@ -167,12 +178,76 @@ public class App
 
         // Proxy pattern
         // 11
-        Engineer engineer = new DevOps();
-        engineer.build();
+        //Engineer engineer = new DevOps();
+        //engineer.build();
 
 
         // 22
         //Engineer engineer = DevOps.getInstance();
         //engineer.build();
+
+
+        // Composite pattern
+        //Folder folder0 = new Folder("folder 0");
+        //File file0_123 = new File("file 0_123");
+        //Folder folder0_1 = new Folder("folder 0 _ 1");
+        //File file0_1_123 = new File("file 0_1_123");
+        //
+        //folder0.add(file0_123);
+        //folder0_1.add(folder0_1);
+        //folder0_1.add(file0_1_123);
+        //
+        //folder0.print(0);
+
+
+        // Flyweight pattern
+        //String s1 = "abcd";
+        //String s2 = "abcd";
+        //String s3 = "ab" + "cd";
+        //String s4 = "ab";
+        //s4 += "cd";
+        //System.out.println(s1 == s2);
+        //System.out.println(s1 == s3);
+        //System.out.println(s1 == s4);
+        //// how to get the address of the string?
+        //s4 = "abcd";
+        //System.out.println(s1 == s4);
+
+        // 11
+        //FlyweightFactory factory = FlyweightFactory.getInstance();
+        //Flyweight fly = factory.createFlyweight(new Integer(1));
+        //fly.operation("First call");
+        //System.out.println(fly.hashCode());
+        //
+        //fly = factory.createFlyweight(new Integer(2));
+        //fly.operation("Second call");
+        //System.out.println(fly.hashCode());
+        //
+        ////System.gc();
+        //
+        //fly = factory.createFlyweight(new Integer(1));
+        //fly.operation("Third call");
+        //System.out.println(fly.hashCode());
+        // 11
+
+
+        // 22
+
+        List<Integer> compositeStates = Arrays.asList(1,2,3,1,2);
+
+        FlyweightFactory factory = FlyweightFactory.getInstance();
+        Flyweight compositeFly1 = factory.createFlyweight(compositeStates);
+        Flyweight compositeFly2 = factory.createFlyweight(compositeStates);
+
+        compositeFly1.operation("Composite call");
+
+        System.out.println(compositeFly1 == compositeFly2);
+
+        Integer state = 1;
+        Flyweight fly1 = factory.createFlyweight(state);
+        Flyweight fly2 = factory.createFlyweight(state);
+
+        System.out.println(fly1 == fly2);
+
     }
 }
